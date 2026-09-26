@@ -1,0 +1,698 @@
+{
+ "allen2014": {
+  "type": "article",
+  "authors": "Allen, L., Scott, J., Brand, A., Hlava, M., & Altman, M.",
+  "year": 2014,
+  "title": "Publishing: Credit where credit is due",
+  "venue": "Nature",
+  "volume": "508",
+  "issue": "7496",
+  "pages": "312-313",
+  "doi": "10.1038/508312a"
+ },
+ "anderson2010": {
+  "type": "book",
+  "authors": "Anderson, D. J.",
+  "year": 2010,
+  "title": "Kanban: Successful Evolutionary Change for Your Technology Business",
+  "publisher": "Blue Hole Press"
+ },
+ "aria2017": {
+  "type": "article",
+  "authors": "Aria, M., & Cuccurullo, C.",
+  "year": 2017,
+  "title": "bibliometrix: An R-tool for comprehensive science mapping analysis",
+  "venue": "Journal of Informetrics",
+  "volume": "11",
+  "issue": "4",
+  "pages": "959-975",
+  "doi": "10.1016/j.joi.2017.08.007"
+ },
+ "beck2001": {
+  "type": "web",
+  "authors": "Beck, K., Beedle, M., van Bennekum, A., et al.",
+  "year": 2001,
+  "title": "Manifesto for Agile Software Development",
+  "url": "https://agilemanifesto.org"
+ },
+ "boehm1981": {
+  "type": "book",
+  "authors": "Boehm, B. W.",
+  "year": 1981,
+  "title": "Software Engineering Economics",
+  "publisher": "Prentice Hall"
+ },
+ "boehm1991": {
+  "type": "article",
+  "authors": "Boehm, B. W.",
+  "year": 1991,
+  "title": "Software risk management: Principles and practices",
+  "venue": "IEEE Software",
+  "volume": "8",
+  "issue": "1",
+  "pages": "32-41",
+  "doi": "10.1109/52.62930"
+ },
+ "brooks1975": {
+  "type": "book",
+  "authors": "Brooks, F. P.",
+  "year": 1975,
+  "title": "The Mythical Man-Month: Essays on Software Engineering",
+  "publisher": "Addison-Wesley"
+ },
+ "buehler1994": {
+  "type": "article",
+  "authors": "Buehler, R., Griffin, D., & Ross, M.",
+  "year": 1994,
+  "title": "Exploring the planning fallacy: Why people underestimate their task completion times",
+  "venue": "Journal of Personality and Social Psychology",
+  "volume": "67",
+  "issue": "3",
+  "pages": "366-381",
+  "doi": "10.1037/0022-3514.67.3.366"
+ },
+ "chesbrough2003": {
+  "type": "book",
+  "authors": "Chesbrough, H. W.",
+  "year": 2003,
+  "title": "Open Innovation: The New Imperative for Creating and Profiting from Technology",
+  "publisher": "Harvard Business School Press"
+ },
+ "denning2005": {
+  "type": "article",
+  "authors": "Denning, P. J.",
+  "year": 2005,
+  "title": "Is computer science science?",
+  "venue": "Communications of the ACM",
+  "volume": "48",
+  "issue": "4",
+  "pages": "27-31",
+  "doi": "10.1145/1053291.1053309"
+ },
+ "dingsoyr2012": {
+  "type": "article",
+  "authors": "Dingsøyr, T., Nerur, S., Balijepally, V., & Moe, N. B.",
+  "year": 2012,
+  "title": "A decade of agile methodologies: Towards explaining agile software development",
+  "venue": "Journal of Systems and Software",
+  "volume": "85",
+  "issue": "6",
+  "pages": "1213-1221",
+  "doi": "10.1016/j.jss.2012.02.033"
+ },
+ "dora2012": {
+  "type": "web",
+  "authors": "DORA",
+  "year": 2012,
+  "title": "San Francisco Declaration on Research Assessment",
+  "url": "https://sfdora.org/read/"
+ },
+ "doran1981": {
+  "type": "article",
+  "authors": "Doran, G. T.",
+  "year": 1981,
+  "title": "There's a S.M.A.R.T. way to write management's goals and objectives",
+  "venue": "Management Review",
+  "volume": "70",
+  "issue": "11",
+  "pages": "35-36"
+ },
+ "ecannexes": {
+  "type": "web",
+  "authors": "European Commission",
+  "year": 2024,
+  "title": "Horizon Europe Work Programme 2023-2025: 13. General Annexes",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2023-2024/wp-13-general-annexes_horizon-2023-2024_en.pdf",
+  "check": "web"
+ },
+ "ecbriefing": {
+  "type": "web",
+  "authors": "European Commission",
+  "year": 2021,
+  "title": "Standard briefing slides for experts: Horizon Europe",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/experts/standard-briefing-slides-for-experts_he_en.pdf",
+  "check": "web"
+ },
+ "eclumpsum": {
+  "type": "web",
+  "authors": "European Commission",
+  "year": 2024,
+  "title": "Lump sum funding in Horizon Europe: What do I need to know?",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-funding-what-do-i-need-to-know_he_en.pdf",
+  "check": "web"
+ },
+ "edmondson1999": {
+  "type": "article",
+  "authors": "Edmondson, A.",
+  "year": 1999,
+  "title": "Psychological safety and learning behavior in work teams",
+  "venue": "Administrative Science Quarterly",
+  "volume": "44",
+  "issue": "2",
+  "pages": "350-383",
+  "doi": "10.2307/2666999"
+ },
+ "epc": {
+  "type": "web",
+  "authors": "European Patent Office",
+  "year": 2020,
+  "title": "European Patent Convention, Article 52: Patentable inventions",
+  "url": "https://www.epo.org"
+ },
+ "ercchanges": {
+  "type": "web",
+  "authors": "European Research Council",
+  "year": 2025,
+  "title": "Changes to the 2026 and 2027 Work Programmes",
+  "url": "https://erc.europa.eu/news-events/news/changes-2026-and-2027-work-programmes",
+  "check": "web"
+ },
+ "ercwp2026": {
+  "type": "web",
+  "authors": "European Commission",
+  "year": 2025,
+  "title": "Horizon Europe Work Programme 2026: European Research Council",
+  "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf",
+  "check": "web"
+ },
+ "etzkowitz2000": {
+  "type": "article",
+  "authors": "Etzkowitz, H., & Leydesdorff, L.",
+  "year": 2000,
+  "title": "The dynamics of innovation: From National Systems and 'Mode 2' to a Triple Helix of university-industry-government relations",
+  "venue": "Research Policy",
+  "volume": "29",
+  "issue": "2",
+  "pages": "109-123",
+  "doi": "10.1016/S0048-7333(99)00055-4"
+ },
+ "ffgrates": {
+  "type": "web",
+  "authors": "FFG, Austrian Research Promotion Agency",
+  "year": 2026,
+  "title": "Funding rates in Horizon Europe",
+  "url": "https://www.ffg.at/en/europe/heu/legal-financial/theme_funding-rates",
+  "check": "web"
+ },
+ "fleming2010": {
+  "type": "book",
+  "authors": "Fleming, Q. W., & Koppelman, J. M.",
+  "year": 2010,
+  "title": "Earned Value Project Management",
+  "edition": "4th ed.",
+  "publisher": "Project Management Institute"
+ },
+ "flyvbjerg2006": {
+  "type": "article",
+  "authors": "Flyvbjerg, B.",
+  "year": 2006,
+  "title": "From Nobel Prize to project management: Getting risks right",
+  "venue": "Project Management Journal",
+  "volume": "37",
+  "issue": "3",
+  "pages": "5-15",
+  "doi": "10.1177/875697280603700302"
+ },
+ "graves2011": {
+  "type": "article",
+  "authors": "Graves, N., Barnett, A. G., & Clarke, P.",
+  "year": 2011,
+  "title": "Funding grant proposals for scientific research: Retrospective analysis of scores by members of grant review panel",
+  "venue": "BMJ",
+  "volume": "343",
+  "pages": "d4797",
+  "doi": "10.1136/bmj.d4797"
+ },
+ "gundersen2018": {
+  "type": "inproceedings",
+  "authors": "Gundersen, O. E., & Kjensmo, S.",
+  "year": 2018,
+  "title": "State of the art: Reproducibility in artificial intelligence",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "volume": "32",
+  "issue": "1",
+  "doi": "10.1609/aaai.v32i1.11503"
+ },
+ "hevner2004": {
+  "type": "article",
+  "authors": "Hevner, A. R., March, S. T., Park, J., & Ram, S.",
+  "year": 2004,
+  "title": "Design science in information systems research",
+  "venue": "MIS Quarterly",
+  "volume": "28",
+  "issue": "1",
+  "pages": "75-105",
+  "doi": "10.2307/25148625"
+ },
+ "hicks2015": {
+  "type": "article",
+  "authors": "Hicks, D., Wouters, P., Waltman, L., de Rijcke, S., & Rafols, I.",
+  "year": 2015,
+  "title": "Bibliometrics: The Leiden Manifesto for research metrics",
+  "venue": "Nature",
+  "volume": "520",
+  "issue": "7548",
+  "pages": "429-431",
+  "doi": "10.1038/520429a"
+ },
+ "hirsch2005": {
+  "type": "article",
+  "authors": "Hirsch, J. E.",
+  "year": 2005,
+  "title": "An index to quantify an individual's scientific research output",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "volume": "102",
+  "issue": "46",
+  "pages": "16569-16572",
+  "doi": "10.1073/pnas.0507655102"
+ },
+ "hubbard2009": {
+  "type": "book",
+  "authors": "Hubbard, D. W.",
+  "year": 2009,
+  "title": "The Failure of Risk Management: Why It's Broken and How to Fix It",
+  "publisher": "Wiley"
+ },
+ "iso21502": {
+  "type": "book",
+  "authors": "ISO",
+  "year": 2020,
+  "title": "ISO 21502:2020 Project, programme and portfolio management: Guidance on project management",
+  "publisher": "International Organization for Standardization"
+ },
+ "iso31000": {
+  "type": "book",
+  "authors": "ISO",
+  "year": 2018,
+  "title": "ISO 31000:2018 Risk management: Guidelines",
+  "publisher": "International Organization for Standardization"
+ },
+ "jorgensen2007": {
+  "type": "article",
+  "authors": "Jørgensen, M., & Shepperd, M.",
+  "year": 2007,
+  "title": "A systematic review of software development cost estimation studies",
+  "venue": "IEEE Transactions on Software Engineering",
+  "volume": "33",
+  "issue": "1",
+  "pages": "33-53",
+  "doi": "10.1109/TSE.2007.256943"
+ },
+ "kelley1959": {
+  "type": "inproceedings",
+  "authors": "Kelley, J. E., & Walker, M. R.",
+  "year": 1959,
+  "title": "Critical-path planning and scheduling",
+  "venue": "Proceedings of the Eastern Joint Computer Conference",
+  "pages": "160-173",
+  "doi": "10.1145/1460299.1460318"
+ },
+ "kellogg2004": {
+  "type": "report",
+  "authors": "W. K. Kellogg Foundation",
+  "year": 2004,
+  "title": "Logic Model Development Guide",
+  "publisher": "W. K. Kellogg Foundation"
+ },
+ "kitchenham2007": {
+  "type": "report",
+  "authors": "Kitchenham, B., & Charters, S.",
+  "year": 2007,
+  "title": "Guidelines for performing systematic literature reviews in software engineering",
+  "publisher": "Keele University and Durham University",
+  "note": "EBSE Technical Report EBSE-2007-01"
+ },
+ "kose2017selflearning": {
+  "type": "article",
+  "authors": "Kose, U., & Arslan, A.",
+  "year": 2017,
+  "title": "Optimization of self-learning in computer engineering courses: An intelligent software system supported by artificial neural network and vortex optimization algorithm",
+  "venue": "Computer Applications in Engineering Education",
+  "volume": "25",
+  "issue": "1",
+  "pages": "142-156",
+  "doi": "10.1002/cae.21787",
+  "check": "web"
+ },
+ "law4691": {
+  "type": "web",
+  "authors": "Republic of Türkiye",
+  "year": 2001,
+  "title": "Law No. 4691 on Technology Development Zones (Teknoloji Geliştirme Bölgeleri Kanunu)",
+  "url": "https://www.mevzuat.gov.tr"
+ },
+ "law5449": {
+  "type": "web",
+  "authors": "Republic of Türkiye",
+  "year": 2006,
+  "title": "Law No. 5449 on the Establishment, Coordination and Duties of Development Agencies (Kalkınma Ajanslarının Kuruluşu, Koordinasyonu ve Görevleri Hakkında Kanun)",
+  "url": "https://www.mevzuat.gov.tr"
+ },
+ "law5746": {
+  "type": "web",
+  "authors": "Republic of Türkiye",
+  "year": 2008,
+  "title": "Law No. 5746 on Supporting Research, Development and Design Activities (Araştırma, Geliştirme ve Tasarım Faaliyetlerinin Desteklenmesi Hakkında Kanun)",
+  "url": "https://www.mevzuat.gov.tr"
+ },
+ "law6769": {
+  "type": "web",
+  "authors": "Republic of Türkiye",
+  "year": 2016,
+  "title": "Law No. 6769 on Industrial Property (Sınai Mülkiyet Kanunu)",
+  "url": "https://www.mevzuat.gov.tr"
+ },
+ "little1961": {
+  "type": "article",
+  "authors": "Little, J. D. C.",
+  "year": 1961,
+  "title": "A proof for the queuing formula: L = λW",
+  "venue": "Operations Research",
+  "volume": "9",
+  "issue": "3",
+  "pages": "383-387",
+  "doi": "10.1287/opre.9.3.383"
+ },
+ "malcolm1959": {
+  "type": "article",
+  "authors": "Malcolm, D. G., Roseboom, J. H., Clark, C. E., & Fazar, W.",
+  "year": 1959,
+  "title": "Application of a technique for research and development program evaluation",
+  "venue": "Operations Research",
+  "volume": "7",
+  "issue": "5",
+  "pages": "646-669",
+  "doi": "10.1287/opre.7.5.646"
+ },
+ "mankins2009": {
+  "type": "article",
+  "authors": "Mankins, J. C.",
+  "year": 2009,
+  "title": "Technology readiness assessments: A retrospective",
+  "venue": "Acta Astronautica",
+  "volume": "65",
+  "issue": "9-10",
+  "pages": "1216-1223",
+  "doi": "10.1016/j.actaastro.2009.03.058"
+ },
+ "marchesi2007": {
+  "type": "inproceedings",
+  "authors": "Marchesi, M., Mannaro, K., Uras, S., & Locci, M.",
+  "year": 2007,
+  "title": "Distributed Scrum in research project management",
+  "venue": "Agile Processes in Software Engineering and Extreme Programming (XP 2007), Lecture Notes in Computer Science 4536",
+  "pages": "240-244",
+  "doi": "10.1007/978-3-540-73101-6_45"
+ },
+ "mowery2001": {
+  "type": "article",
+  "authors": "Mowery, D. C., Nelson, R. R., Sampat, B. N., & Ziedonis, A. A.",
+  "year": 2001,
+  "title": "The growth of patenting and licensing by U.S. universities: An assessment of the effects of the Bayh-Dole act of 1980",
+  "venue": "Research Policy",
+  "volume": "30",
+  "issue": "1",
+  "pages": "99-119",
+  "doi": "10.1016/S0048-7333(99)00100-6"
+ },
+ "nosek2015": {
+  "type": "article",
+  "authors": "Nosek, B. A., Alter, G., Banks, G. C., et al.",
+  "year": 2015,
+  "title": "Promoting an open research culture",
+  "venue": "Science",
+  "volume": "348",
+  "issue": "6242",
+  "pages": "1422-1425",
+  "doi": "10.1126/science.aab2374"
+ },
+ "nsfmerit": {
+  "type": "web",
+  "authors": "National Science Foundation",
+  "year": 2026,
+  "title": "Merit review: Intellectual merit and broader impacts",
+  "url": "https://www.nsf.gov"
+ },
+ "oecd2015frascati": {
+  "type": "book",
+  "authors": "OECD",
+  "year": 2015,
+  "title": "Frascati Manual 2015: Guidelines for Collecting and Reporting Data on Research and Experimental Development",
+  "publisher": "OECD Publishing",
+  "doi": "10.1787/9789264239012-en"
+ },
+ "oecd2018oslo": {
+  "type": "book",
+  "authors": "OECD, & Eurostat",
+  "year": 2018,
+  "title": "Oslo Manual 2018: Guidelines for Collecting, Reporting and Using Data on Innovation",
+  "edition": "4th ed.",
+  "publisher": "OECD Publishing",
+  "doi": "10.1787/9789264304604-en"
+ },
+ "page2021": {
+  "type": "article",
+  "authors": "Page, M. J., McKenzie, J. E., Bossuyt, P. M., et al.",
+  "year": 2021,
+  "title": "The PRISMA 2020 statement: An updated guideline for reporting systematic reviews",
+  "venue": "BMJ",
+  "volume": "372",
+  "pages": "n71",
+  "doi": "10.1136/bmj.n71"
+ },
+ "petersen2015": {
+  "type": "article",
+  "authors": "Petersen, K., Vakkalanka, S., & Kuzniarz, L.",
+  "year": 2015,
+  "title": "Guidelines for conducting systematic mapping studies in software engineering: An update",
+  "venue": "Information and Software Technology",
+  "volume": "64",
+  "pages": "1-18",
+  "doi": "10.1016/j.infsof.2015.03.007"
+ },
+ "pier2018": {
+  "type": "article",
+  "authors": "Pier, E. L., Brauer, M., Filut, A., Kaatz, A., Raclaw, J., Nathan, M. J., Ford, C. E., & Carnes, M.",
+  "year": 2018,
+  "title": "Low agreement among reviewers evaluating the same NIH grant applications",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "volume": "115",
+  "issue": "12",
+  "pages": "2952-2957",
+  "doi": "10.1073/pnas.1714379115"
+ },
+ "pineau2021": {
+  "type": "article",
+  "authors": "Pineau, J., Vincent-Lamarre, P., Sinha, K., Larivière, V., Beygelzimer, A., d'Alché-Buc, F., Fox, E., & Larochelle, H.",
+  "year": 2021,
+  "title": "Improving reproducibility in machine learning research (A report from the NeurIPS 2019 reproducibility program)",
+  "venue": "Journal of Machine Learning Research",
+  "volume": "22",
+  "issue": "164",
+  "pages": "1-20"
+ },
+ "pmbok2021": {
+  "type": "book",
+  "authors": "Project Management Institute",
+  "year": 2021,
+  "title": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) and The Standard for Project Management",
+  "edition": "7th ed.",
+  "publisher": "Project Management Institute"
+ },
+ "pmi2019evm": {
+  "type": "book",
+  "authors": "Project Management Institute",
+  "year": 2019,
+  "title": "The Standard for Earned Value Management",
+  "publisher": "Project Management Institute"
+ },
+ "priem2022": {
+  "type": "arxiv",
+  "authors": "Priem, J., Piwowar, H., & Orr, R.",
+  "year": 2022,
+  "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+  "arxiv": "2205.01833"
+ },
+ "ries2011": {
+  "type": "book",
+  "authors": "Ries, E.",
+  "year": 2011,
+  "title": "The Lean Startup",
+  "publisher": "Crown Business"
+ },
+ "rogers2003": {
+  "type": "book",
+  "authors": "Rogers, E. M.",
+  "year": 2003,
+  "title": "Diffusion of Innovations",
+  "edition": "5th ed.",
+  "publisher": "Free Press"
+ },
+ "schwaber2020": {
+  "type": "web",
+  "authors": "Schwaber, K., & Sutherland, J.",
+  "year": 2020,
+  "title": "The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game",
+  "url": "https://scrumguides.org"
+ },
+ "shane2004": {
+  "type": "book",
+  "authors": "Shane, S.",
+  "year": 2004,
+  "title": "Academic Entrepreneurship: University Spinoffs and Wealth Creation",
+  "publisher": "Edward Elgar"
+ },
+ "stokes1997": {
+  "type": "book",
+  "authors": "Stokes, D. E.",
+  "year": 1997,
+  "title": "Pasteur's Quadrant: Basic Science and Technological Innovation",
+  "publisher": "Brookings Institution Press"
+ },
+ "stol2018": {
+  "type": "article",
+  "authors": "Stol, K.-J., & Fitzgerald, B.",
+  "year": 2018,
+  "title": "The ABC of software engineering research",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "volume": "27",
+  "issue": "3",
+  "pages": "11",
+  "doi": "10.1145/3241743"
+ },
+ "tedre2014": {
+  "type": "article",
+  "authors": "Tedre, M., & Moisseinen, N.",
+  "year": 2014,
+  "title": "Experiments in computing: A survey",
+  "venue": "The Scientific World Journal",
+  "volume": "2014",
+  "pages": "549398",
+  "doi": "10.1155/2014/549398"
+ },
+ "tubitak1001form": {
+  "type": "web",
+  "authors": "TÜBİTAK",
+  "year": 2026,
+  "title": "1001 Bilimsel ve Teknolojik Araştırma Projelerini Destekleme Programı: Proje başvuru formu",
+  "url": "https://tubitak.gov.tr/sites/default/files/20689/1001_basvuru_formu.doc",
+  "check": "web"
+ },
+ "tubitak1002form": {
+  "type": "web",
+  "authors": "TÜBİTAK",
+  "year": 2026,
+  "title": "1002 Hızlı Destek Programı: 1002-A proje başvuru formu",
+  "url": "https://tubitak.gov.tr/sites/default/files/20689/1002_a_basvuru_formu.doc",
+  "check": "web"
+ },
+ "tubitak2020eval": {
+  "type": "web",
+  "authors": "TÜBİTAK",
+  "year": 2020,
+  "title": "ARDEB 1001 Programı: Proje değerlendirme sistemindeki yenilikler",
+  "url": "https://tubitak.gov.tr/tr/duyuru/ardeb-1001-programi-proje-degerlendirme-sistemindeki-yenilikler",
+  "check": "web"
+ },
+ "tuckman1965": {
+  "type": "article",
+  "authors": "Tuckman, B. W.",
+  "year": 1965,
+  "title": "Developmental sequence in small groups",
+  "venue": "Psychological Bulletin",
+  "volume": "63",
+  "issue": "6",
+  "pages": "384-399",
+  "doi": "10.1037/h0022100"
+ },
+ "vaneck2010": {
+  "type": "article",
+  "authors": "van Eck, N. J., & Waltman, L.",
+  "year": 2010,
+  "title": "Software survey: VOSviewer, a computer program for bibliometric mapping",
+  "venue": "Scientometrics",
+  "volume": "84",
+  "issue": "2",
+  "pages": "523-538",
+  "doi": "10.1007/s11192-009-0146-3"
+ },
+ "vose2008": {
+  "type": "book",
+  "authors": "Vose, D.",
+  "year": 2008,
+  "title": "Risk Analysis: A Quantitative Guide",
+  "edition": "3rd ed.",
+  "publisher": "Wiley"
+ },
+ "wilkinson2016": {
+  "type": "article",
+  "authors": "Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., et al.",
+  "year": 2016,
+  "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+  "venue": "Scientific Data",
+  "volume": "3",
+  "pages": "160018",
+  "doi": "10.1038/sdata.2016.18"
+ },
+ "wilson2017": {
+  "type": "article",
+  "authors": "Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K.",
+  "year": 2017,
+  "title": "Good enough practices in scientific computing",
+  "venue": "PLOS Computational Biology",
+  "volume": "13",
+  "issue": "6",
+  "pages": "e1005510",
+  "doi": "10.1371/journal.pcbi.1005510"
+ },
+ "wohlin2012": {
+  "type": "book",
+  "authors": "Wohlin, C., Runeson, P., Höst, M., Ohlsson, M. C., Regnell, B., & Wesslén, A.",
+  "year": 2012,
+  "title": "Experimentation in Software Engineering",
+  "publisher": "Springer",
+  "doi": "10.1007/978-3-642-29044-2"
+ },
+ "wohlin2014": {
+  "type": "inproceedings",
+  "authors": "Wohlin, C.",
+  "year": 2014,
+  "title": "Guidelines for snowballing in systematic literature studies and a replication in software engineering",
+  "venue": "Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering (EASE)",
+  "pages": "38",
+  "doi": "10.1145/2601248.2601268"
+ },
+ "wu2019": {
+  "type": "article",
+  "authors": "Wu, L., Wang, D., & Evans, J. A.",
+  "year": 2019,
+  "title": "Large teams develop and small teams disrupt science and technology",
+  "venue": "Nature",
+  "volume": "566",
+  "issue": "7744",
+  "pages": "378-382",
+  "doi": "10.1038/s41586-019-0941-9"
+ },
+ "wuchty2007": {
+  "type": "article",
+  "authors": "Wuchty, S., Jones, B. F., & Uzzi, B.",
+  "year": 2007,
+  "title": "The increasing dominance of teams in production of knowledge",
+  "venue": "Science",
+  "volume": "316",
+  "issue": "5827",
+  "pages": "1036-1039",
+  "doi": "10.1126/science.1136099"
+ },
+ "zimmerman2002": {
+  "type": "article",
+  "authors": "Zimmerman, B. J.",
+  "year": 2002,
+  "title": "Becoming a self-regulated learner: An overview",
+  "venue": "Theory Into Practice",
+  "volume": "41",
+  "issue": "2",
+  "pages": "64-70",
+  "doi": "10.1207/s15430421tip4102_2"
+ }
+}
