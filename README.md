@@ -142,6 +142,10 @@ Course text, figures and interactive labs are licensed under the Creative Common
 
 [9] Kelley, J. E., & Walker, M. R. (1959). Critical-path planning and scheduling. In *Proceedings of the Eastern Joint Computer Conference* (pp. 160-173). <https://doi.org/10.1145/1460299.1460318>
 
+## Human-AI collaboration
+
+This course was developed through human-AI collaboration. Human intellectual knowledge and expertise are the fundamental starting point of the course. The course author guides and supervises every stage of its development. The final version is presented only after the course author's review and approval.
+
 ---
 
 <div align="center">
