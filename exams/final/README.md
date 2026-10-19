@@ -11,26 +11,54 @@ Prof. Dr. Utku Kose, Süleyman Demirel University
 
 ## Overview
 
-The final capstone integrates Weeks 8 to 14: estimation, scheduling, risk, agile methods, earned value, teams and open science, and the route from research to impact [1, 2, 3, 4]. Students choose the research track or the application track.
+The final capstone integrates Weeks 8 to 14: estimation, scheduling, risk, agile methods, earned value, teams and open science, and the route from research to impact [1, 2, 3, 4]. Some topics and projects also draw on earlier weeks, as their week labels show. Students choose the research track or the application track.
 
 ## Formats
 
-Two tracks are available. In the research track, the capstone is a theoretical research report of 3500 to 5000 words on a project management topic, based on at least ten scholarly or official sources. In the application track, the capstone extends one of the three simulation notebooks and is reported in a text of 2500 to 4000 words that states the question, the model, the experiments and the practical implications for research projects. Each student works individually. The weights below are indicative; in active semesters the instructor confirms them at the start of the semester.
+Two tracks are available. In the research track, the capstone is a theoretical research report of 3500 to 5000 words on a project management topic, based on at least ten scholarly or official sources. In the application track, the capstone extends one of the three example Colab notebooks. A report of 2500 to 4000 words states the question, the model, the experiments and the practical implications for research projects. Each student works individually. The weights below are indicative; in active semesters the instructor confirms them at the start of the semester.
+
+## How to work on this capstone
+
+Both tracks are assessed with the same criteria, which are listed below. The research track suits students who want to analyse a project management topic from the literature. The application track suits students who want to extend a simulation and interpret its results.
+
+### Research track
+
+**Step 1. Choose a topic.** Pick one of the suggested research topics below, or propose a related topic to the instructor. The week in brackets after each topic shows where the course treats it.
+
+**Step 2. Read.** Reread the lecture of the week or weeks named after the topic. Collect at least ten scholarly or official sources, starting from the references of those lectures.
+
+**Step 3. Analyse.** State a clear question and compare what the sources say about it, including the evidence for and against each position.
+
+**Step 4. Write.** Write the report with the course report template. End with recommendations for managing research projects.
+
+**Step 5. Submit.** Send the report as a PDF file. The submission section below gives the deadline for active semesters.
+
+### Application track
+
+**Step 1. Choose a project.** Pick one of the three advanced application projects below. The related weeks of each project show which lecture pages, interactive labs and Colab notebooks to revisit.
+
+**Step 2. Run the example.** Open the example Colab notebook of the project with its badge. Save a copy to your own Google Drive (File, Save a copy in Drive), run all cells from top to bottom and read what the baseline implements.
+
+**Step 3. Extend it.** Implement every required extension in your copy. Fix the random seeds so that another person can reproduce the results.
+
+**Step 4. Evaluate and write.** Compare the extensions with the baseline, including a sensitivity analysis, and write the report with the course report template. End with practical implications for research projects.
+
+**Step 5. Submit.** Send the report as a PDF file and a link to your Colab notebook with view access. The submission section below gives the deadline for active semesters.
 
 ## Suggested research topics
 
 The titles below are starting points. Students may narrow a title or propose a related one that fits the scope of the capstone.
 
-1. The planning fallacy and reference class forecasting in software and research projects
-2. Critical path, resource constraints and buffers: Scheduling approaches for research projects compared
-3. Earned value management for knowledge work: Measuring progress when outcomes are uncertain
-4. Risk matrices versus quantitative risk analysis: Evidence and practice
-5. Agile methods inside grant agreements: Governance models for iterative research
-6. Peer review of grant proposals: Reliability, bias and the case for partial lotteries
-7. Team size, disruption and the organisation of research projects
-8. Open science practices as requirements of project management
-9. Technology readiness levels for software and AI: Suitability and alternatives
-10. Portfolio management of research projects in universities and technology transfer offices
+1. The planning fallacy and reference class forecasting in software and research projects (Week 8)
+2. Critical path, resource constraints and buffers: Scheduling approaches for research projects compared (Week 9)
+3. Earned value management for knowledge work: Measuring progress when outcomes are uncertain (Week 12)
+4. Risk matrices versus quantitative risk analysis: Evidence and practice (Week 10)
+5. Agile methods inside grant agreements: Governance models for iterative research (Week 11)
+6. Peer review of grant proposals: Reliability, bias and the case for partial lotteries (Week 7)
+7. Team size, disruption and the organisation of research projects (Week 13)
+8. Open science practices as requirements of project management (Week 13)
+9. Technology readiness levels for software and AI: Suitability and alternatives (Week 1)
+10. Portfolio management of research projects in universities and technology transfer offices (Weeks 1 and 14)
 
 ## Advanced application projects
 
@@ -38,33 +66,39 @@ Each project comes with an example Colab notebook that implements a working base
 
 ### Project 1: A Monte Carlo risk engine with correlated durations and risk events
 
+**Related weeks.** Weeks 9 and 10. Lecture: section "PERT and the probability of meeting a deadline" of Week 9, and sections "The limits of risk matrices" and "Monte Carlo schedule risk" of Week 10. Interactive lab: Part B of Week 10, the Monte Carlo schedule. Colab notebooks: Weeks 9 and 10.
+
 The schedule network of Weeks 9 and 10 is extended with correlated task durations through a Gaussian copula, discrete risk events with probabilities and impacts, and task costs. The example reports percentiles of duration and cost, the criticality index of every task and the correlation of each task with the total [2, 5].
 
-**Required extensions.** Add resource constraints or shared staff, risk responses whose cost can be compared with the risk they remove, and a calibration step that sets the distributions from historical data or expert ranges. Compare the resulting contingency with the deterministic plan and with PERT, and discuss the criticism of qualitative risk scoring [6, 7].
+**Required extensions.** Add resource constraints or shared staff, and risk responses whose cost can be compared with the risk they remove. Add a calibration step that sets the distributions from historical data or expert ranges. Compare the resulting contingency with the deterministic plan and with PERT, and discuss the criticism of qualitative risk scoring [6, 7].
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN1_correlated_risk_simulation.ipynb) Example notebook: `FIN1_correlated_risk_simulation.ipynb`
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN1_correlated_risk_simulation.ipynb) Example Colab notebook: `FIN1_correlated_risk_simulation.ipynb`
 
-![Output of the example notebook](screenshots/FIN1_correlated_risk_simulation_1.png)
+![Output of the example Colab notebook](screenshots/FIN1_correlated_risk_simulation_1.png)
 
 ### Project 2: An agent-based simulation of a research team: Scrum, Kanban and multitasking
 
-A team of four researchers works through a backlog of uncertain tasks that generates new work as it is completed. The example compares pushing all work into progress, Scrum sprints whose commitment follows the effort delivered in recent sprints and Kanban with three limits on work in progress, with a cost for switching between tasks [3, 8, 9].
+**Related weeks.** Week 11. Lecture: sections "Scrum", "Flow and Little's law" and "Agile inside a research grant". Interactive lab: Part A, which simulates work in progress and cycle time. Colab notebook: Sections 1 and 2.
 
-**Required extensions.** Add milestones with deadlines from a grant agreement, heterogeneous skills and absences, and measure lateness against milestones as well as throughput and cycle time. Validate the model qualitatively against Little's law and the literature on agile research projects, and recommend a working method for a funded project [10, 11].
+A team of four researchers works through a backlog of uncertain tasks that generates new work as it is completed. The example compares pushing all work into progress, Scrum sprints and Kanban with three different limits on work in progress. In Scrum, the commitment follows the effort delivered in recent sprints. Switching between tasks has a cost [3, 8, 9].
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN2_team_flow_simulation.ipynb) Example notebook: `FIN2_team_flow_simulation.ipynb`
+**Required extensions.** Add milestones with deadlines from a grant agreement, heterogeneous skills and absences, and measure lateness against milestones as well as throughput and cycle time. Check numerically that the average work in progress equals throughput times the average cycle time, as Little's law requires. Compare the behaviour of the model with the literature on agile research projects, and recommend a working method for a funded project [10, 11].
 
-![Output of the example notebook](screenshots/FIN2_team_flow_simulation_1.png)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN2_team_flow_simulation.ipynb) Example Colab notebook: `FIN2_team_flow_simulation.ipynb`
+
+![Output of the example Colab notebook](screenshots/FIN2_team_flow_simulation_1.png)
 
 ### Project 3: Funding panel policies: Ranking, partial lotteries and bias
 
-A call with 100 proposals and funds for 20 is decided by noisy reviewers who slightly favour established applicants. The example compares pure ranking, a partial lottery that funds the clear leaders and draws the rest from the next band, and a lottery above a threshold, with respect to the quality funded and the share of established applicants [12, 13].
+**Related weeks.** Week 7, and Weeks 4 and 5 for the funding programmes. Lecture: sections "How proposals are evaluated" and "How reliable is peer review?" of Week 7. Interactive lab: Part B of Week 7, which simulates panels with noisy reviewers. Colab notebook: Section 2 of Week 7.
+
+A call with 100 proposals and funds for 20 is decided by noisy reviewers who slightly favour established applicants. The example compares three policies: pure ranking, a partial lottery and a lottery above a threshold. The partial lottery funds the clear leaders and draws the rest from the next band. The policies are compared by the quality funded and by the share of established applicants [12, 13].
 
 **Required extensions.** Add the costs of reviewing, panels of different sizes, and bias that grows with the reviewers' uncertainty. Identify the conditions under which partial lotteries lose little quality while reducing bias, and discuss the implications for applicants and funders, including the programmes of Weeks 4 and 5.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN3_funding_panel_policies.ipynb) Example notebook: `FIN3_funding_panel_policies.ipynb`
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/exams/final/FIN3_funding_panel_policies.ipynb) Example Colab notebook: `FIN3_funding_panel_policies.ipynb`
 
-![Output of the example notebook](screenshots/FIN3_funding_panel_policies_1.png)
+![Output of the example Colab notebook](screenshots/FIN3_funding_panel_policies_1.png)
 
 ## Report
 
@@ -84,7 +118,7 @@ A common structure for reports is given in the [report template](https://github.
 
 ## Submission
 
-This capstone also supports self-learning and can be completed at any pace. When the course is taught actively in a semester, the final capstone is sent by e-mail to utkukose@sdu.edu.tr or utkukose@gmail.com no later than 23:53 (Türkiye time) on the last Sunday of Week 14, with the report and all code files attached or linked.
+This capstone also supports self-learning and can be completed at any pace. In an active semester, the final capstone is sent by e-mail to utkukose@sdu.edu.tr or utkukose@gmail.com. The deadline is 23:53 (Türkiye time) on the Sunday that ends Week 14. The e-mail contains the report as a PDF file. In the application track, it also contains a link to the Colab notebook.
 
 ## References
 
@@ -116,4 +150,4 @@ This capstone also supports self-learning and can be completed at any pace. When
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

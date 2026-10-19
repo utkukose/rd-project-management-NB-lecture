@@ -17,7 +17,7 @@ Funding bodies, tax authorities and statistical offices use precise definitions 
 
 ## Learning outcomes
 
-By the end of the week, students are expected to apply the five Frascati criteria to decide whether an activity is research and development, to distinguish basic research, applied research and experimental development, to explain the Oslo Manual's definition of innovation, and to assess the technology readiness level of a computing result.
+By the end of the week, students are expected to apply the five Frascati criteria to decide whether an activity is research and development. They should be able to distinguish basic research, applied research and experimental development, and to explain the Oslo Manual's definition of innovation. Finally, they should be able to assess the technology readiness level of a computing result.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to apply the five Frascati criteri
 | 1 | Read the lecture below or the [PDF version](Week01_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-01/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-01/NB01_rd_innovation.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -47,7 +47,7 @@ flowchart LR
 
 The Frascati Manual of the OECD defines research and experimental development as creative and systematic work undertaken to increase the stock of knowledge and to devise new applications of available knowledge [1]. An activity counts as R&D only if it meets five criteria, at least in principle: It must be novel, creative, uncertain in its outcome, systematic and transferable or reproducible. The manual distinguishes three types of R&D. Basic research seeks new knowledge without a particular application in view. Applied research seeks new knowledge directed towards a specific practical aim. Experimental development draws on knowledge and experience to produce new products or processes or to improve existing ones.
 
-The criteria matter in computing, where much work consists of software development. Writing software is R&D when it resolves scientific or technological uncertainty on a systematic basis, and it is not R&D when it applies known techniques in routine ways. The migration of an application to a new framework version is normally routine, while the design of a compiler optimisation whose effect cannot be predicted in advance may be experimental development.
+The criteria matter in computing, where much work consists of software development. Writing software is R&D when it resolves scientific or technological uncertainty on a systematic basis, and it is not R&D when it applies known techniques in routine ways. The migration of an application to a new framework version is normally routine. The design of a compiler optimisation whose effect cannot be predicted in advance may be experimental development.
 
 <details>
 <summary><b>Check your understanding.</b> Which of the following is NOT one of the Frascati Manual&#x27;s criteria for research and development?</summary>
@@ -63,7 +63,7 @@ D. Profitable
 
 ### What counts as innovation
 
-The Oslo Manual, published by the OECD and Eurostat, defines an innovation as a new or improved product or process, or a combination of the two, that differs significantly from the unit's previous products or processes and that has been made available to potential users or brought into use by the unit [2]. It distinguishes product innovations from business process innovations. Innovation therefore requires implementation, while R&D does not: A research project can produce knowledge without any innovation, and an innovation can occur without any R&D, for example by adopting a technology that is new to the firm.
+The Oslo Manual, published by the OECD and Eurostat, defines an innovation as a new or improved product or process, or a combination of the two [2]. It must differ significantly from the unit's previous products or processes. It must also have been made available to potential users or brought into use by the unit. It distinguishes product innovations from business process innovations. Innovation therefore requires implementation, while R&D does not. A research project can produce knowledge without any innovation. An innovation can occur without any R&D, for example when a firm adopts a technology that is new to it.
 
 <details>
 <summary><b>Check your understanding.</b> How does the Oslo Manual define an innovation?</summary>
@@ -99,7 +99,7 @@ Technology readiness levels were developed at NASA to assess the maturity of tec
 
 > **Pause and reflect.** Place your current thesis or project on the technology readiness scale. What evidence would move it up one level?
 
-![The nine technology readiness levels as used in European research programmes {cite:mankins2009}.](figures/w01_fig1.png)
+![The nine technology readiness levels as used in European research programmes.](figures/w01_fig1.png)
 
 *Figure 1.1. The nine technology readiness levels as used in European research programmes [3].*
 
@@ -125,17 +125,17 @@ Part A applies the five Frascati criteria to computing activities. Part B sorts 
 
 ## Colab notebook
 
-The notebook encodes the five Frascati criteria as a function, classifies a portfolio of computing activities and summarises the R&D budget by type [1].
+The Colab notebook encodes the five Frascati criteria as a function, classifies a portfolio of computing activities and summarises the R&D budget by type [1].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-01/NB01_rd_innovation.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 1 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 1 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. Which part of your current work would pass all five Frascati criteria, and which part would not? Why does the distinction matter for funding?
 2. Where would you place your field in Stokes's quadrants, and how does that affect whom you ask for funding?
@@ -143,15 +143,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Write a one-page description of a project idea that you will develop throughout the course. Classify its activities with the Frascati criteria, place the project in Stokes's quadrants and state its starting and target technology readiness levels with the evidence required for each. Attach the notebook with both exercises completed.
+**What to do.** Describe on one page a project idea that you will develop throughout the course. First, state the problem, the main question and the expected result in a few sentences. Second, list four to six activities of the project and check each against the five Frascati criteria. Third, place the project in one of Stokes's quadrants. Fourth, state its starting and target technology readiness levels, with the evidence that each level requires.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "What counts as research and development", "Pasteur's quadrant" and "Technology readiness". Interactive lab: Part A for the five Frascati criteria, Part B for the types of R&D and Part C for technology readiness. Colab notebook: Section 1 with Exercise 1, which encodes the Frascati criteria as a function.
+
+**Example.** A project could detect cyberbullying in Turkish social media posts. Designing and testing a new detection model meets all five Frascati criteria, because its outcome is uncertain and the work is novel, creative, systematic and reproducible. Setting up a web server for a demonstration does not, because it is routine. The project seeks both understanding and use, which places it in Pasteur's quadrant. It could start at TRL 2 and aim for TRL 4, with the model validated in the laboratory on public data.
+
+**What to submit.** The one-page description with a table of the activities and the criteria they meet, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**R&D in Türkiye and the OECD.** Using official statistics from the Turkish Statistical Institute and the OECD, compare the research and development intensity of Türkiye with three other countries and classify the differences with the concepts of the Frascati Manual [1]. Report the data sources and years precisely.
+**R&D in Türkiye and the OECD.** How does the research and development intensity of Türkiye compare with that of other countries?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Use official statistics from the Turkish Statistical Institute and the OECD. Compare the research and development intensity of Türkiye with that of three other countries. Classify the differences with the concepts of the Frascati Manual [1], and report the data sources and years precisely.
+
+**Where to start.** Lecture section "What counts as research and development", and the R&D statistics published by the Turkish Statistical Institute and the OECD.
+
+**Example focus.** The report could compare the shares of the business and higher education sectors in R&D expenditure, which the Frascati Manual distinguishes as sectors of performance.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -167,4 +179,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

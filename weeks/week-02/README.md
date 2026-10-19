@@ -11,13 +11,13 @@ Prof. Dr. Utku Kose, Süleyman Demirel University
 
 ## Overview
 
-A proposal is only as convincing as its method. This week surveys the research methods used in computing, from controlled experiments and benchmarks to case studies, surveys, design science and formal analysis, and shows how to plan experiments with adequate power and to report them reproducibly [1, 2, 3].
+A proposal is only as convincing as its method. This week surveys the research methods used in computing, from controlled experiments and benchmarks to case studies, surveys, design science and formal analysis. It shows how to plan experiments with adequate power and how to report them reproducibly [1, 2, 3].
 
 **Estimated study time:** 6 to 8 hours.
 
 ## Learning outcomes
 
-By the end of the week, students are expected to match research questions with suitable research strategies, to identify threats to validity, to compute the sample size needed for a two-group comparison, and to apply reproducibility practices when reporting computational experiments.
+By the end of the week, students are expected to match research questions with suitable research strategies and to identify threats to validity. They should be able to compute the sample size needed for a two-group comparison. They should also apply reproducibility practices when reporting computational experiments.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to match research questions with s
 | 1 | Read the lecture below or the [PDF version](Week02_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-02/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-02/NB02_research_methods.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -59,7 +59,7 @@ D. Only experimental physics
 
 ### Choosing a research strategy
 
-Stol and Fitzgerald organised research strategies in software engineering with three desirable qualities that no single strategy can maximise at once: generalisability over actors, precision of measurement of behaviour and realism of context [1]. Laboratory experiments offer precision but limited realism, field studies offer realism but limited control, and sample studies such as surveys offer generalisability. Formal analyses and simulations complement them. Design science, as described by Hevner and colleagues, is a further strategy for building and evaluating artefacts that solve relevant problems, with guidelines on rigour, evaluation and communication [3]. Many computing proposals combine strategies, for example a design science cycle with a controlled benchmark and a field evaluation.
+Stol and Fitzgerald organised research strategies in software engineering by three desirable qualities that no single strategy can maximise at once [1]. The qualities are generalisability over actors, precision of measurement of behaviour and realism of context. Laboratory experiments offer precision but limited realism, field studies offer realism but limited control, and sample studies such as surveys offer generalisability. Formal analyses and simulations complement them. Design science, as described by Hevner and colleagues, is a further strategy for building and evaluating artefacts that solve relevant problems, with guidelines on rigour, evaluation and communication [3]. Many computing proposals combine strategies, for example a design science cycle with a controlled benchmark and a field evaluation.
 
 <details>
 <summary><b>Check your understanding.</b> In the ABC framework of research strategies, what do strategies trade off?</summary>
@@ -75,7 +75,7 @@ D. Hardware, software and data
 
 ### Experiments and validity
 
-Wohlin and colleagues described the design of experiments in software engineering, from hypotheses and variables to the analysis of results, and classified threats to validity into four groups [2]. Conclusion validity concerns the statistical relation between treatment and outcome, internal validity concerns whether the relation is causal, construct validity concerns whether the measures capture the intended concepts, and external validity concerns generalisation. A frequent weakness of proposals is an experiment too small to detect the expected effect. Statistical power is the probability of detecting an effect of a given size if it exists; Figure 2.1 shows how power grows with the number of observations for small, medium and large effects. The lab computes the sample size needed for a chosen effect size, significance level and power.
+Wohlin and colleagues described the design of experiments in software engineering, from hypotheses and variables to the analysis of results, and classified threats to validity into four groups [2]. Conclusion validity concerns the statistical relation between treatment and outcome, and internal validity concerns whether the relation is causal. Construct validity concerns whether the measures capture the intended concepts, and external validity concerns generalisation. A frequent weakness of proposals is an experiment too small to detect the expected effect. Statistical power is the probability of detecting an effect of a given size if it exists. Figure 2.1 shows how power grows with the number of observations for small, medium and large effects. The interactive lab computes the sample size needed for a chosen effect size, significance level and power.
 
 ![Power of a two-sided two-group comparison at a significance level of 0.05 as a function of group size for three effect sizes, computed with a normal approximation.](figures/w02_fig1.png)
 
@@ -121,17 +121,17 @@ Part A matches research questions with strategies. Part B sorts threats to valid
 
 ## Colab notebook
 
-The notebook simulates a benchmark comparison of two algorithms over many datasets, applies paired tests and effect sizes, and computes the sample size needed for a planned experiment [2].
+The Colab notebook simulates a benchmark comparison of two algorithms over many datasets, applies paired tests and effect sizes, and computes the sample size needed for a planned experiment [2].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-02/NB02_research_methods.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 2 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 2 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. Which strategy fits your project's main question, and what do you give up by choosing it?
 2. Describe one threat to validity in a paper you know well and how the authors could have addressed it.
@@ -139,15 +139,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Write the method section of your project idea, about 600 words: research questions, strategy, design, sample size with a power calculation, the main threats to validity and the reproducibility plan. Attach the notebook with both exercises completed.
+**What to do.** Write the method section of your project, about 600 words. It covers six points: the research questions, the research strategy, the design of the study, the sample size with a power calculation, the main threats to validity and the plan for reproducibility.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "Choosing a research strategy", "Experiments and validity" and "Reproducibility". Interactive lab: Part A for strategies, Part B for threats to validity and Part C for the sample size. Colab notebook: Section 1 for a paired benchmark comparison and Section 2 for planning the sample size.
+
+**Example.** A project that compares two code completion tools could run a controlled experiment with programmers as participants. For a large effect (d = 0.8), alpha = 0.05 and power 0.8, the formula of the Colab notebook gives about 25 participants per group. A threat to construct validity is measuring productivity only by the number of accepted suggestions.
+
+**What to submit.** About 600 words, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**Research methods in a leading computing venue.** Sample twenty papers from one recent volume of a leading computing conference or journal and classify their research strategies with the framework of Stol and Fitzgerald [1]. Discuss which strategies dominate and which qualities of evidence are neglected.
+**Research methods in a leading computing venue.** Which research strategies dominate in a leading computing venue?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Sample twenty papers from one recent volume of a leading computing conference or journal. Classify their research strategies with the framework of Stol and Fitzgerald [1]. Discuss which strategies dominate and which qualities of evidence are neglected.
+
+**Where to start.** Lecture section "Choosing a research strategy" and Part A of the interactive lab, which matches research questions with strategies.
+
+**Example focus.** If most papers report laboratory experiments on benchmarks, the report could ask what this means for the realism of context.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -167,4 +179,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

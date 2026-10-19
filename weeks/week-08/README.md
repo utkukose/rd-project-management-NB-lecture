@@ -17,7 +17,7 @@ A plan is only as good as its estimates. This week covers the definition of scop
 
 ## Learning outcomes
 
-By the end of the week, students are expected to build a work breakdown structure that covers the whole scope, to compute three-point estimates and their uncertainty, to apply a basic parametric model, and to explain the planning fallacy, reference class forecasting and Brooks's law.
+By the end of the week, students are expected to build a work breakdown structure that covers the whole scope. They should be able to compute three-point estimates and their uncertainty and to apply a basic parametric model. Finally, they should be able to explain the planning fallacy, reference class forecasting and Brooks's law.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to build a work breakdown structur
 | 1 | Read the lecture below or the [PDF version](Week08_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-08/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-08/NB08_scope_estimation.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -60,11 +60,11 @@ D. Every person works full time
 
 ### Estimation methods
 
-Estimates can be made by analogy with similar past work, by expert judgement, by parametric models or by combining optimistic, most likely and pessimistic values. Jørgensen and Shepperd systematically reviewed research on software cost estimation and classified the approaches that studies examined, from formal models to expert judgement [5]. The three-point estimate of PERT, introduced for a research and development programme, weights the most likely value four times: The mean is (a + 4m + b) / 6 and the standard deviation (b - a) / 6 [6]. When the pessimistic value lies far above the most likely one, as is common in research, the mean exceeds the most likely value, as Figure 8.1 shows. Boehm's Constructive Cost Model, COCOMO, estimates effort from program size with coefficients calibrated on past projects; in its basic form, effort in person-months is a times thousands of lines of code to the power b, with values that depend on the type of project [2].
+Estimates can be made by analogy with similar past work, by expert judgement, by parametric models or by combining optimistic, most likely and pessimistic values. Jørgensen and Shepperd systematically reviewed research on software cost estimation and classified the approaches that studies examined, from formal models to expert judgement [5]. The three-point estimate of PERT was introduced for a research and development programme [6]. It weights the most likely value four times: The mean is (a + 4m + b) / 6 and the standard deviation (b - a) / 6. When the pessimistic value lies far above the most likely one, as is common in research, the mean exceeds the most likely value, as Figure 8.1 shows. Boehm's Constructive Cost Model, COCOMO, estimates effort from program size with coefficients calibrated on past projects [2]. In its basic form, effort in person-months is a times thousands of lines of code to the power b. The values of a and b depend on the type of project.
 
-![A three-point estimate with a long pessimistic tail: under both the PERT and the triangular distribution, the expected duration exceeds the most likely one {cite:malcolm1959}.](figures/w08_fig1.png)
+![A three-point estimate with a long pessimistic tail: Under both the PERT and the triangular distribution, the expected duration exceeds the most likely one.](figures/w08_fig1.png)
 
-*Figure 8.1. A three-point estimate with a long pessimistic tail: under both the PERT and the triangular distribution, the expected duration exceeds the most likely one [6].*
+*Figure 8.1. A three-point estimate with a long pessimistic tail: Under both the PERT and the triangular distribution, the expected duration exceeds the most likely one [6].*
 
 <details>
 <summary><b>Check your understanding.</b> A task has an optimistic estimate of 2, a most likely estimate of 4 and a pessimistic estimate of 12 weeks. What is its PERT expected duration?</summary>
@@ -80,7 +80,7 @@ D. 7 weeks
 
 ### Why estimates are optimistic
 
-Buehler, Griffin and Ross demonstrated the planning fallacy: People predict that their own tasks will be completed sooner than they actually are, even when they know that similar tasks took longer [7]. Flyvbjerg argued that such optimism bias and strategic misrepresentation explain much of the overrun of large projects, and proposed reference class forecasting, which bases estimates on the distribution of outcomes in a class of similar past projects rather than on the details of the plan [3]. For proposals, a simple version is to compare planned effort with the actual effort of earlier projects of the same group.
+Buehler, Griffin and Ross demonstrated the planning fallacy [7]. People predict that their own tasks will be completed sooner than they actually are, even when they know that similar tasks took longer. Flyvbjerg argued that such optimism bias and strategic misrepresentation explain much of the overrun of large projects [3]. He proposed reference class forecasting, which bases estimates on the distribution of outcomes in a class of similar past projects rather than on the details of the plan. For proposals, a simple version is to compare planned effort with the actual effort of earlier projects of the same group.
 
 <details>
 <summary><b>Check your understanding.</b> What is the planning fallacy?</summary>
@@ -96,7 +96,7 @@ D. Planning without a budget
 
 ### People and time
 
-Brooks observed that adding people to a late software project makes it later, because new members need training and the communication effort grows with the number of pairs of people, n(n - 1) / 2 [8]. Person-months are therefore not interchangeable with months. In research teams, a doctoral student who joins in the second year cannot compensate for the first year, and the plan must reflect when each person is available. The lab combines a work breakdown with three-point estimates, a basic COCOMO calculator and a counter of communication channels.
+Brooks observed that adding people to a late software project makes it later [8]. New members need training, and the communication effort grows with the number of pairs of people, n(n - 1) / 2. Person-months are therefore not interchangeable with months. In research teams, a doctoral student who joins in the second year cannot compensate for the first year, and the plan must reflect when each person is available. The interactive lab combines a work breakdown with three-point estimates, a basic COCOMO calculator and a counter of communication channels.
 
 > **Pause and reflect.** Compare the estimate of your last thesis chapter or project task with the time it actually took. What would a reference class have told you?
 
@@ -122,17 +122,17 @@ Part A reads an indented work breakdown with optimistic, most likely and pessimi
 
 ## Colab notebook
 
-The notebook computes three-point estimates, compares their normal approximation with a Monte Carlo sum and applies the basic COCOMO model [2, 6].
+The Colab notebook computes three-point estimates, compares their normal approximation with a Monte Carlo sum and applies the basic COCOMO model [2, 6].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-08/NB08_scope_estimation.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 8 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 8 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. Which element of your work breakdown has the widest range between optimistic and pessimistic estimates, and why?
 2. What reference class would you use for your project, and where could you find its data?
@@ -140,15 +140,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Build the work breakdown of your project with three-point estimates for every work package, report the PERT totals and an 85 percent estimate, and compare them with a reference class of at least three earlier projects. Attach the notebook with both exercises completed.
+**What to do.** Build the work breakdown structure of your project and estimate it. First, break the work packages into tasks and give each task an optimistic, a most likely and a pessimistic duration. Second, report the PERT mean and standard deviation of the total. Add an estimate that you would meet with 85 percent probability, which under a normal approximation is about the mean plus one standard deviation. Third, compare the total with a reference class of at least three earlier projects of similar scope.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "Scope and the work breakdown structure", "Estimation methods" and "Why estimates are optimistic". Interactive lab: Part A, which sums three-point estimates from an indented work breakdown. Colab notebook: Section 1 with Exercise 1 for the PERT estimates.
+
+**Example.** A data collection task could take 4, 6 or 10 weeks. Its PERT mean is (4 + 4 x 6 + 10) / 6, about 6.3 weeks, and its standard deviation is (10 - 4) / 6 = 1 week. If three earlier theses needed 30 to 50 percent more time than planned, the reference class suggests a larger buffer.
+
+**What to submit.** The work breakdown structure with a table of the estimates, the PERT totals and the 85 percent estimate. Add the comparison with the reference class and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**Accuracy of estimates in software projects.** Review the evidence on estimation error in software and research projects and on methods to reduce it, including reference class forecasting [3, 5, 7].
+**Accuracy of estimates in software projects.** How large are estimation errors in software and research projects, and how can they be reduced?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Review the evidence on estimation error in software and research projects [5, 7]. Then review methods to reduce it, including reference class forecasting [3].
+
+**Where to start.** Lecture section "Why estimates are optimistic" and the visual exploration at the end of the Colab notebook.
+
+**Example focus.** The report could compare expert judgement with parametric models such as COCOMO, drawing on the systematic review of Jørgensen and Shepperd [5].
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -170,4 +182,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

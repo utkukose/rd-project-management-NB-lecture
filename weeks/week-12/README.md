@@ -17,7 +17,7 @@ Monitoring answers two questions: Is the project where it should be, and where w
 
 ## Learning outcomes
 
-By the end of the week, students are expected to compute planned value, earned value and actual cost, to derive schedule and cost variances and performance indices, to forecast the cost at completion with several methods, and to choose suitable methods for measuring the progress of research tasks.
+By the end of the week, students are expected to compute planned value, earned value and actual cost, and to derive schedule and cost variances and performance indices. They should be able to forecast the cost at completion with several methods. Finally, they should be able to choose suitable methods for measuring the progress of research tasks.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to compute planned value, earned v
 | 1 | Read the lecture below or the [PDF version](Week12_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-12/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-12/NB12_earned_value.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -63,9 +63,9 @@ D. The planned cost of all work
 
 ### The three measures
 
-Planned value (PV) is the budgeted cost of the work scheduled up to the status date. Earned value (EV) is the budgeted cost of the work actually performed. Actual cost (AC) is the cost actually incurred for that work. From these, the schedule variance is EV minus PV and the cost variance is EV minus AC; the schedule performance index SPI is EV divided by PV and the cost performance index CPI is EV divided by AC. An index below one signals a problem. In the example of Figure 12.1, at month 6 of a 12-month project with a budget of 240 thousand euro, the planned value is 96, the earned value 84 and the actual cost 105, so SPI is 0.875 and CPI is 0.8: The project is behind schedule and over budget.
+Planned value (PV) is the budgeted cost of the work scheduled up to the status date. Earned value (EV) is the budgeted cost of the work actually performed. Actual cost (AC) is the cost actually incurred for that work. From these, the schedule variance is EV minus PV and the cost variance is EV minus AC. The schedule performance index SPI is EV divided by PV, and the cost performance index CPI is EV divided by AC. An index below one signals a problem. In the example of Figure 12.1, a 12-month project has a budget of 240 thousand euro. At month 6, the planned value is 96, the earned value 84 and the actual cost 105, so SPI is 0.875 and CPI is 0.8. The project is behind schedule and over budget.
 
-![Planned value, earned value and actual cost of the example project at month 6 {cite:pmi2019evm}.](figures/w12_fig1.png)
+![Planned value, earned value and actual cost of the example project at month 6.](figures/w12_fig1.png)
 
 *Figure 12.1. Planned value, earned value and actual cost of the example project at month 6 [1].*
 
@@ -83,7 +83,7 @@ D. CPI 20, on budget
 
 ### Forecasting the end
 
-The budget at completion (BAC) is the total planned budget. If the current cost efficiency continues, the estimate at completion is EAC = BAC / CPI, 300 thousand euro in the example. If the overrun was a one-off event and future work will proceed as planned, EAC = AC + (BAC - EV), which gives 261. If both cost and schedule performance influence the remaining work, EAC = AC + (BAC - EV) / (CPI x SPI), which gives about 328. The variance at completion is BAC minus EAC, and the to-complete performance index, (BAC - EV) / (BAC - AC), states the cost efficiency that the remaining work would need to finish within budget. A to-complete index well above the current CPI indicates an unrealistic plan. The choice among forecasts is a judgement about the causes of the variance, not a matter of arithmetic.
+The budget at completion (BAC) is the total planned budget. If the current cost efficiency continues, the estimate at completion is EAC = BAC / CPI, 300 thousand euro in the example. If the overrun was a one-off event and future work will proceed as planned, EAC = AC + (BAC - EV), which gives 261. If both cost and schedule performance influence the remaining work, EAC = AC + (BAC - EV) / (CPI x SPI), which gives about 328. The variance at completion is BAC minus EAC. The to-complete performance index, (BAC - EV) / (BAC - AC), states the cost efficiency that the remaining work would need to finish within budget. A to-complete index well above the current CPI indicates an unrealistic plan. The choice among forecasts is a judgement about the causes of the variance, not a matter of arithmetic.
 
 <details>
 <summary><b>Check your understanding.</b> With a budget at completion of 500 and a CPI of 0.8, what is the estimate at completion if the current efficiency continues?</summary>
@@ -99,7 +99,7 @@ D. 625
 
 ### Measuring progress in research
 
-The weak point of earned value in research is the measurement of EV itself, because progress on uncertain tasks is hard to estimate and percent-complete judgements tend to be optimistic. Fixed rules reduce the problem: the 0/100 rule credits a task only when it is finished, and the 50/50 rule credits half at the start and half at completion. Linking earned value to deliverables and milestones makes it verifiable. Funders require periodic technical and financial reports, and earned value measures, even computed informally, help a project team to see problems before the reports do. The lab computes all measures for three scenarios, and the notebook reproduces the calculations.
+The weak point of earned value in research is the measurement of EV itself, because progress on uncertain tasks is hard to estimate and percent-complete judgements tend to be optimistic. Fixed rules reduce the problem. The 0/100 rule credits a task only when it is finished, and the 50/50 rule credits half at the start and half at completion. Linking earned value to deliverables and milestones makes it verifiable. Funders require periodic technical and financial reports, and earned value measures, even computed informally, help a project team to see problems before the reports do. The interactive lab computes all measures for three scenarios, and the Colab notebook reproduces the calculations.
 
 > **Pause and reflect.** Which measure of progress would be most honest for the tasks of your project: percent complete, 0/100 or milestones?
 
@@ -125,33 +125,45 @@ Choose a scenario and a status month. The calculator plots planned value, earned
 
 ## Colab notebook
 
-The notebook computes earned value measures month by month for the example project and compares forecasts of the cost at completion [1].
+The Colab notebook computes earned value measures month by month for the example project and compares forecasts of the cost at completion [1].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-12/NB12_earned_value.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 12 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 12 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
-1. Which scenario in the lab resembles a project you know, and which forecast would you have trusted?
+1. Which scenario in the interactive lab resembles a project you know, and which forecast would you have trusted?
 2. How would you measure earned value for a task whose outcome is a negative result?
 3. What should a periodic report to a funder contain beyond the numbers of earned value management?
 
 ## Weekly task and submission
 
-Define the performance measurement baseline of your project: planned value by month and the rule for measuring earned value for each work package. Then compute a mid-term status for an assumed scenario of your choice and write a half-page status report with forecasts. Attach the notebook with both exercises completed.
+**What to do.** Define the performance measurement baseline of your project and use it once. First, give the planned value by month and the rule for measuring earned value in each work package, such as the 0/100 rule or milestones. Second, assume a status in the middle of the project, for example a delay in one work package. Compute the variances, the indices and a forecast of the cost at completion. Third, write a status report of half a page.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "Baselines and variances", "The three measures", "Forecasting the end" and "Measuring progress in research". Interactive lab: the earned value calculator with its scenarios (tab: Explore). Colab notebook: Section 1 with both exercises.
+
+**Example.** Suppose that a 10-month project has a budget of 200 thousand euro. At month 4, the planned value is 80, the earned value 70 and the actual cost 75, all in thousand euro. Then SPI = 70 / 80 = 0.875 and CPI = 70 / 75, about 0.93. If this cost efficiency continues, the estimate at completion is 200 / (70 / 75), about 214 thousand euro.
+
+**What to submit.** The baseline, the status report, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**Earned value for knowledge work.** Review the evidence on the usefulness and limits of earned value management in software development and research, including the measurement of progress on uncertain tasks [1, 2].
+**Earned value for knowledge work.** Is earned value management useful for software development and research?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Review the evidence on the usefulness and limits of earned value management in software development and research [1, 2]. Include the measurement of progress on uncertain tasks.
+
+**Where to start.** Lecture sections "The three measures" and "Measuring progress in research".
+
+**Example focus.** The 0/100 rule avoids optimistic progress reports, but it shows no progress for a long experiment until the experiment ends. The report could compare such rules with measurement based on milestones.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -161,4 +173,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

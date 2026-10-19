@@ -17,7 +17,7 @@ Originality can only be claimed against the literature. This week covers systema
 
 ## Learning outcomes
 
-By the end of the week, students are expected to plan a systematic literature review or mapping study, to report its selection process with a flow diagram, to retrieve publication data from OpenAlex, and to compute and critically interpret indicators such as the h-index.
+By the end of the week, students are expected to plan a systematic literature review or mapping study and to report its selection process with a flow diagram. They should also be able to retrieve publication data from OpenAlex, and to compute and critically interpret indicators such as the h-index.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to plan a systematic literature re
 | 1 | Read the lecture below or the [PDF version](Week03_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-03/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-03/NB03_literature_bibliometrics.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -46,7 +46,7 @@ flowchart LR
 
 ### Systematic reviews in computing
 
-Kitchenham and Charters adapted systematic review methods from medicine to software engineering [1]. A review is planned in a protocol that states the research questions, the search strategy, the inclusion and exclusion criteria, the quality assessment and the synthesis method, so that others can repeat it. Petersen, Vakkalanka and Kuzniarz updated guidelines for systematic mapping studies, which classify a research field rather than answer a narrow question [4]. Wohlin described snowballing, which follows the references of relevant papers backwards and their citations forwards, as a complement or alternative to database searches [5].
+Kitchenham and Charters adapted systematic review methods from medicine to software engineering [1]. A review is planned in a protocol, so that others can repeat it. The protocol states the research questions, the search strategy, the inclusion and exclusion criteria, the quality assessment and the synthesis method. Petersen, Vakkalanka and Kuzniarz updated guidelines for systematic mapping studies, which classify a research field rather than answer a narrow question [4]. Wohlin described snowballing, which follows the references of relevant papers backwards and their citations forwards, as a complement or alternative to database searches [5].
 
 <details>
 <summary><b>Check your understanding.</b> How does a systematic literature review differ from a narrative review?</summary>
@@ -62,9 +62,9 @@ D. It avoids databases
 
 ### Reporting the selection
 
-The PRISMA 2020 statement provides a reporting guideline for systematic reviews, with a checklist and a flow diagram that accounts for every record from identification to inclusion [6]. Although it was developed for health research, its flow diagram is widely used in computing. Figure 3.1 shows the structure with illustrative numbers. The lab checks the arithmetic of such a flow, since inconsistent numbers are a common and easily avoided error.
+The PRISMA 2020 statement provides a reporting guideline for systematic reviews, with a checklist and a flow diagram that accounts for every record from identification to inclusion [6]. Although it was developed for health research, its flow diagram is widely used in computing. Figure 3.1 shows the structure with illustrative numbers. The interactive lab checks the arithmetic of such a flow, since inconsistent numbers are a common and easily avoided error.
 
-![The selection process of a systematic review in the style of the PRISMA 2020 flow diagram, with illustrative numbers {cite:page2021}.](figures/w03_fig1.png)
+![The selection process of a systematic review in the style of the PRISMA 2020 flow diagram, with illustrative numbers.](figures/w03_fig1.png)
 
 *Figure 3.1. The selection process of a systematic review in the style of the PRISMA 2020 flow diagram, with illustrative numbers [6].*
 
@@ -82,7 +82,7 @@ D. A funding programme
 
 ### Open bibliographic data
 
-OpenAlex is a fully open index of scholarly works, authors, sources, institutions and concepts, available through a free programming interface [2]. It allows students to count publications on a topic per year, to find the most cited works and to build datasets for mapping studies without subscriptions. Tools such as VOSviewer and bibliometrix support the visualisation and analysis of such data [7, 8]. The lab queries OpenAlex live, and the notebook retrieves the same data with Python, falling back to a small illustrative sample when no connection is available.
+OpenAlex is a fully open index of scholarly works, authors, sources, institutions and concepts, available through a free programming interface [2]. It allows students to count publications on a topic per year, to find the most cited works and to build datasets for mapping studies without subscriptions. Tools such as VOSviewer and bibliometrix support the visualisation and analysis of such data [7, 8]. The interactive lab queries OpenAlex live, and the Colab notebook retrieves the same data with Python, falling back to a small illustrative sample when no connection is available.
 
 <details>
 <summary><b>Check your understanding.</b> What is OpenAlex?</summary>
@@ -124,17 +124,17 @@ Part A queries the open OpenAlex index for publication counts per year and the m
 
 ## Colab notebook
 
-The notebook retrieves publication counts from the OpenAlex interface, with an illustrative fallback sample when offline, computes growth and implements the h-index [2, 9].
+The Colab notebook retrieves publication counts from the OpenAlex interface, with an illustrative fallback sample when offline, computes growth and implements the h-index [2, 9].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-03/NB03_literature_bibliometrics.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 3 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 3 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. What did the OpenAlex query show about your topic, and how would you use that evidence in a proposal?
 2. Which of the ten Leiden principles is most often ignored in your environment?
@@ -142,15 +142,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Write a review protocol of about 500 words for your topic: research questions, databases and search string, inclusion and exclusion criteria, snowballing plan and a flow diagram with the numbers from a first search. Include one OpenAlex chart and attach the notebook with both exercises completed.
+**What to do.** Write a review protocol for the topic of your project, about 500 words. It states the research questions of the review, the databases and the search string, the inclusion and exclusion criteria and the snowballing plan. Then run a first search and draw a flow diagram with its numbers. Add one chart of publication counts per year from OpenAlex.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "Systematic reviews in computing", "Reporting the selection" and "Open bibliographic data". Interactive lab: Part A for a live OpenAlex query and Part C for checking the arithmetic of a flow diagram. Colab notebook: Section 1, which retrieves publication counts from OpenAlex.
+
+**Example.** For a review of energy-efficient training of language models, the search string could be ("energy" OR "carbon") AND "training" AND "language model". One inclusion criterion could require a measured energy or carbon figure. The flow diagram could report 412 records found, 120 records left after screening titles and abstracts, and 35 studies included.
+
+**What to submit.** The protocol with the flow diagram and the OpenAlex chart, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**A bibliometric map of a thesis topic.** Build a publication dataset for a thesis topic from OpenAlex, map it with VOSviewer or bibliometrix and interpret the clusters [2, 7, 8]. Apply at least three principles of the Leiden Manifesto to the interpretation [3].
+**A bibliometric map of a thesis topic.** What structure does the literature on a thesis topic have?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Build a publication data set for a thesis topic from OpenAlex. Map it with VOSviewer or bibliometrix and interpret the clusters [2, 7, 8]. Apply at least three principles of the Leiden Manifesto to the interpretation [3].
+
+**Where to start.** Lecture sections "Open bibliographic data" and "Indicators and their limits". Part A of the interactive lab and Section 1 of the Colab notebook show how to query OpenAlex.
+
+**Example focus.** A cluster of highly cited papers may reflect the size of a subfield rather than its quality. The Leiden Manifesto asks for this kind of caution.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -176,4 +188,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

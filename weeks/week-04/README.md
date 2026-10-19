@@ -17,7 +17,7 @@ Most research projects in Türkiye are funded by a small number of public bodies
 
 ## Learning outcomes
 
-By the end of the week, students are expected to identify suitable funding programmes in Türkiye for a given profile and purpose, to explain the evaluation criteria and formal requirements of TÜBİTAK's research programmes, and to plan the internal timeline of an application.
+By the end of the week, students are expected to identify suitable funding programmes in Türkiye for a given profile and purpose. They should be able to explain the evaluation criteria and formal requirements of TÜBİTAK's research programmes and to plan the internal timeline of an application.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to identify suitable funding progr
 | 1 | Read the lecture below or the [PDF version](Week04_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-04/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-04/NB04_funding_turkiye.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -45,11 +45,11 @@ flowchart LR
 
 ### The funding landscape
 
-TÜBİTAK, the Scientific and Technological Research Council of Türkiye, runs the largest set of programmes, organised in directorates, as Figure 4.1 summarises. The Directorate of Research Support Programmes (ARDEB) funds academic research, for example through the 1001 programme for scientific and technological research projects, the 1002 rapid support programme, the 1003 programme for priority areas and the 3501 career development programme for young researchers. The Directorate of Technology and Innovation Support Programmes (TEYDEB) funds industrial research and development, including the 1501 industrial R&D programme, the 1507 programme for R&D start-ups of small and medium enterprises, the 1505 university-industry collaboration programme, the 1509 programme for international industrial projects and the 1512 entrepreneurship programme known as BiGG. The Directorate of Science Fellowships and Grant Programmes (BİDEB) supports people, for example through the 2209 programmes for undergraduate research projects, the 2244 industrial doctorate programme, the 2218 national postdoctoral programme and the 2232 programme for international leading and returning researchers.
+TÜBİTAK, the Scientific and Technological Research Council of Türkiye, runs the largest set of programmes, organised in directorates, as Figure 4.1 summarises. The Directorate of Research Support Programmes (ARDEB) funds academic research. Examples are the 1001 programme for scientific and technological research projects, the 1002 rapid support programme, the 1003 programme for priority areas and the 3501 career development programme for young researchers. The Directorate of Technology and Innovation Support Programmes (TEYDEB) funds industrial research and development. Its programmes include the 1501 industrial R&D programme, the 1507 programme for R&D start-ups of small and medium enterprises and the 1505 university-industry collaboration programme. They also include the 1509 programme for international industrial projects and the 1512 entrepreneurship programme known as BiGG. The Directorate of Science Fellowships and Grant Programmes (BİDEB) supports people. Examples are the 2209 programmes for undergraduate research projects, the 2244 industrial doctorate programme, the 2218 national postdoctoral programme and the 2232 programme for international leading and returning researchers.
 
 Other public funders complement TÜBİTAK. The Ministry of Industry and Technology grants incentives to firms with R&D and design centres under Law No. 5746 and to companies in technology development zones under Law No. 4691 [3, 4]. KOSGEB supports research and innovation in small and medium enterprises. The development agencies established under Law No. 5449 run regional support programmes [5]. Universities fund projects through their scientific research projects units, known as BAP.
 
-![Programme families of the main public funders of research and innovation in Türkiye, checked against official sources in September 2026 {cite:law5746,law4691,law5449}.](figures/w04_fig1.png)
+![Programme families of the main public funders of research and innovation in Türkiye, checked against official sources in September 2026.](figures/w04_fig1.png)
 
 *Figure 4.1. Programme families of the main public funders of research and innovation in Türkiye, checked against official sources in September 2026 [3, 4, 5].*
 
@@ -67,7 +67,7 @@ D. 2209-A
 
 ### How TÜBİTAK evaluates research proposals
 
-In the 1001 programme, proposals are evaluated under four criteria with equal weight: originality, method, project management and wider impact, known in Turkish as özgün değer, yöntem, proje yönetimi and yaygın etki [1]. The budget of the programme is set for each application period. The application form asks for Turkish and English summaries of up to 600 words each that cover the four criteria, and the main text, excluding annexes, should not exceed 25 pages [2]. The form also asks for a plan B for the main risks, which must not lead the project away from its core objectives and originality. The 1002-A rapid support module uses the same four criteria with a limit of 12 pages [6]. TÜBİTAK has also awarded additional points for elements such as the increase in technology readiness level and alignment with priority areas in its call planning [1].
+In the 1001 programme, proposals are evaluated under four criteria with equal weight: originality, method, project management and wider impact [1]. In Turkish, they are known as özgün değer, yöntem, proje yönetimi and yaygın etki. The budget of the programme is set for each application period. The application form asks for Turkish and English summaries of up to 600 words each that cover the four criteria. The main text, excluding annexes, should not exceed 25 pages [2]. The form also asks for a plan B for the main risks, which must not lead the project away from its core objectives and originality. The 1002-A rapid support module uses the same four criteria with a limit of 12 pages [6]. TÜBİTAK has also awarded additional points for elements such as the increase in technology readiness level and alignment with priority areas in its call planning [1].
 
 <details>
 <summary><b>Check your understanding.</b> Which criteria are used to evaluate TÜBİTAK 1001 proposals?</summary>
@@ -83,7 +83,7 @@ D. Originality only
 
 ### Matching programmes to profiles
 
-The first decision is not how to write but where to apply. An undergraduate with a research idea, a doctoral student working with a company, an early-career researcher building a group and a small enterprise developing a product face different programmes with different rules on eligibility, partners, budgets and duration. The lab provides a navigator that suggests programme families for a profile and purpose and links to the official pages. It is a starting point, and the current call documents always take precedence, because programme numbers, budget limits and deadlines change.
+The first decision is not how to write but where to apply. Consider an undergraduate with a research idea, a doctoral student working with a company, an early-career researcher building a group and a small enterprise developing a product. Each of them faces different programmes, with different rules on eligibility, partners, budgets and duration. The interactive lab provides a navigator that suggests programme families for a profile and purpose and links to the official pages. It is a starting point, and the current call documents always take precedence, because programme numbers, budget limits and deadlines change.
 
 <details>
 <summary><b>Check your understanding.</b> Which option suits a researcher who needs a small, fast-track project?</summary>
@@ -99,7 +99,7 @@ D. ERC Advanced Grant
 
 ### Planning the application
 
-A proposal needs more than writing time. Institutions usually require internal approval before submission, ethics committee approval may be needed for studies with human participants or personal data, and colleagues need time to review drafts. Working backwards from the deadline, the notebook computes the dates of these internal milestones in business days. A realistic plan also leaves time for budget preparation with the institution's project office or technology transfer office, whose staff often know the current rules in detail.
+A proposal needs more than writing time. Institutions usually require internal approval before submission, ethics committee approval may be needed for studies with human participants or personal data, and colleagues need time to review drafts. Working backwards from the deadline, the Colab notebook computes the dates of these internal milestones in business days. A realistic plan also leaves time for budget preparation with the institution's project office or technology transfer office, whose staff often know the current rules in detail.
 
 > **Pause and reflect.** Which programme in the navigator fits your project idea best, and which eligibility condition is most likely to exclude you?
 
@@ -125,17 +125,17 @@ Part A suggests programme families for a profile and purpose, with links to offi
 
 ## Colab notebook
 
-The notebook plans the internal timeline of an application by working backwards from the deadline in business days, and summarises a draft budget by category.
+The Colab notebook plans the internal timeline of an application by working backwards from the deadline in business days, and summarises a draft budget by category.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-04/NB04_funding_turkiye.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 4 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 4 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. Which programme would you apply to first with your project idea, and why that one rather than the alternatives?
 2. Which of the four TÜBİTAK criteria is the weakest in your current idea, and what would strengthen it?
@@ -143,15 +143,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Prepare a funding plan of about 400 words: the programme you will target, its eligibility conditions as stated in the current call, a timeline of internal milestones and a draft budget by category. Cite the official call documents and attach the notebook with both exercises completed.
+**What to do.** Prepare a funding plan for your project, about 400 words. First, name the programme you will target and explain why it fits your profile. Second, list its eligibility conditions as stated in the current call. Third, plan a timeline of internal milestones, working backwards from the deadline. Fourth, draft a budget by category. Cite the official call documents.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "The funding landscape", "Matching programmes to profiles" and "Planning the application". Interactive lab: Part A, which suggests programme families for a profile and purpose, and Part B, a self-check against the four criteria of the 1001 programme. Colab notebook: Section 1 for the timeline and Section 2 for the draft budget.
+
+**Example.** A doctoral student could target the TÜBİTAK 1001 programme with the supervisor as project leader. The timeline could set a complete draft four weeks before the deadline and the request for institutional approval two weeks before it. The budget could list personnel, equipment, consumables, travel and services.
+
+**What to submit.** About 400 words with the timeline and the budget table, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**National research programmes compared.** Compare TÜBİTAK's 1001 programme with a comparable programme of a national funder in another country with respect to eligibility, evaluation criteria, budget rules and success rates, using only the official documents of both funders [1, 2].
+**National research programmes compared.** How does TÜBİTAK's 1001 programme compare with a similar programme abroad?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Compare TÜBİTAK's 1001 programme with a comparable programme of a national funder in another country [1, 2]. Cover eligibility, evaluation criteria, budget rules and success rates. Use only the official documents of both funders.
+
+**Where to start.** Lecture sections "The funding landscape" and "How TÜBİTAK evaluates research proposals", and the current call documents of both funders.
+
+**Example focus.** The report could compare the four equally weighted criteria of the 1001 programme with the two merit review criteria of the US National Science Foundation.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -169,4 +181,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>

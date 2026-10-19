@@ -17,7 +17,7 @@ Once tasks and dependencies are known, the schedule follows from arithmetic. Thi
 
 ## Learning outcomes
 
-By the end of the week, students are expected to draw a dependency network, to compute earliest and latest start and finish times and total float, to identify the critical path, to compute the probability of meeting a deadline with PERT, and to explain crashing, fast tracking and the limits of PERT.
+By the end of the week, students are expected to draw a dependency network and to compute earliest and latest start and finish times and total float. They should be able to identify the critical path and to compute the probability of meeting a deadline with PERT. Finally, they should be able to explain crashing, fast tracking and the limits of PERT.
 
 ## Study path
 
@@ -26,8 +26,8 @@ By the end of the week, students are expected to draw a dependency network, to c
 | 1 | Read the lecture below or the [PDF version](Week09_Lecture_Notes.pdf) | 90 minutes |
 | 2 | Explore the [interactive lab](https://utkukose.github.io/rd-project-management-NB-lecture/weeks/week-09/lab.html) | 45 minutes |
 | 3 | Work through the [Colab notebook](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-09/NB09_cpm_pert.ipynb) and its exercises | 2 to 3 hours |
-| 4 | Take the self-assessment in the lab (tab: Check yourself) | 20 minutes |
-| 5 | Write the reflection, export the learning log and complete the weekly task | 60 minutes |
+| 4 | Take the self-assessment in the interactive lab (tab: Check yourself) | 20 minutes |
+| 5 | Answer the reflection prompts in the interactive lab, export the learning log and complete the weekly task | 60 minutes |
 
 ## Week at a glance
 
@@ -66,9 +66,9 @@ D. A and B must finish together
 
 Kelley and Walker described the critical path method for planning and scheduling projects [1]. A forward pass through the network computes the earliest start and finish of every task: A task starts as soon as all its predecessors have finished. A backward pass from the project end computes the latest start and finish that do not delay the project. The difference between latest and earliest start is the total float, the delay a task can absorb without delaying the project. Tasks with zero float form the critical path, the longest path through the network, whose length is the project duration. Figure 9.1 shows the schedule of a small research project with two critical paths that merge before the experiments.
 
-![Critical path schedule of the example research project: two critical paths of 20 weeks merge at the prototype; benchmark design and workshop preparation have float {cite:kelley1959}.](figures/w09_fig1.png)
+![Critical path schedule of the example research project. Two critical paths of 20 weeks merge at the prototype, and benchmark design and workshop preparation have float.](figures/w09_fig1.png)
 
-*Figure 9.1. Critical path schedule of the example research project: two critical paths of 20 weeks merge at the prototype; benchmark design and workshop preparation have float [1].*
+*Figure 9.1. Critical path schedule of the example research project. Two critical paths of 20 weeks merge at the prototype, and benchmark design and workshop preparation have float [1].*
 
 <details>
 <summary><b>Check your understanding.</b> Which tasks form the critical path?</summary>
@@ -84,7 +84,7 @@ D. The first tasks in the plan
 
 ### PERT and the probability of meeting a deadline
 
-PERT was developed for the research and development programme of the Polaris missile system [2]. It combines the network with three-point estimates: The expected duration of the project is the sum of the expected durations on the critical path, and its variance is the sum of their variances, if tasks are independent. With a normal approximation, the probability of finishing by a deadline follows. The method has a known weakness: It considers only one critical path, so it ignores the chance that a near-critical path becomes critical. When paths merge, the expected completion time is later than PERT suggests. Week 10 addresses this merge bias with Monte Carlo simulation.
+PERT was developed for the research and development programme of the Polaris missile system [2]. It combines the network with three-point estimates. The expected duration of the project is the sum of the expected durations on the critical path. If tasks are independent, its variance is the sum of their variances. With a normal approximation, the probability of finishing by a deadline follows. The method has a known weakness: It considers only one critical path, so it ignores the chance that a near-critical path becomes critical. When paths merge, the expected completion time is later than PERT suggests. Week 10 addresses this merge bias with Monte Carlo simulation.
 
 <details>
 <summary><b>Check your understanding.</b> Why does classical PERT tend to be optimistic?</summary>
@@ -126,17 +126,17 @@ Edit the task list, one task per line: identifier, name, duration in weeks and p
 
 ## Colab notebook
 
-The notebook implements the critical path method, computes the float of every task and estimates the probability of meeting a deadline with PERT [1, 2].
+The Colab notebook implements the critical path method, computes the float of every task and estimates the probability of meeting a deadline with PERT [1, 2].
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkukose/rd-project-management-NB-lecture/blob/main/weeks/week-09/NB09_cpm_pert.ipynb)
 
-Screenshots of the executed notebook:
+Screenshots of the executed Colab notebook:
 
-![Output 1 of the Week 9 notebook](screenshots/nb_1.png)
+![Output 1 of the Week 9 Colab notebook](screenshots/nb_1.png)
 
 ## Self-assessment and reflection
 
-The lab contains a 6-question self-assessment with instant feedback and a confidence rating for each answer. A confident but wrong answer marks the first topic to revisit. The reflection prompts below are also available in the lab, where answers are saved in the browser and can be exported as a learning log.
+The interactive lab contains a self-assessment of six questions (tab: Check yourself). Students answer each question, state how sure they are and receive instant feedback. A confident but wrong answer marks the first topic to revisit. The reflection prompts below also appear in the interactive lab (tab: Reflect and submit). Answers written there are saved in the browser and can be exported as a learning log.
 
 1. Enter your own project in the calculator. Which task on the critical path is most uncertain?
 2. Where in your project could fast tracking create more risk than it saves time?
@@ -144,15 +144,27 @@ The lab contains a 6-question self-assessment with instant feedback and a confid
 
 ## Weekly task and submission
 
-Build the dependency network of your project, compute the critical path and float with the calculator or the notebook, and include the schedule figure in your proposal draft. State the probability of meeting the planned end date under PERT and explain its limitation. Attach the notebook with both exercises completed.
+**What to do.** Build the dependency network of your project from the tasks of Week 8. First, compute the critical path and the float of every task with the interactive lab or the Colab notebook. Second, add the schedule figure to your proposal draft. Third, state the probability of meeting the planned end date under PERT, and explain why this probability is likely to be too optimistic.
 
-The weekly task supports self-learning and builds a personal portfolio. When the course is followed with the instructor during an active semester, the task can be sent together with the exported learning log to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation.
+**Where to look.** Lecture: sections "The critical path method" and "PERT and the probability of meeting a deadline". Interactive lab: the critical path calculator, where you type your own task list (tab: Explore). Colab notebook: Section 1 with Exercise 1 for the critical path and Section 2 with Exercise 2 for the PERT probability.
+
+**Example.** Suppose the critical path has an expected length of 40 weeks with a standard deviation of 3 weeks, and the planned end is week 44. Under PERT, the probability of finishing on time is about 91 percent. A second path that is almost as long makes the true probability lower.
+
+**What to submit.** The network and the schedule figure with a short explanation of about 300 words, and the Colab notebook with Exercises 1 and 2 completed.
+
+The weekly task supports self-learning and builds a personal portfolio. In an active semester, students who follow the course with the instructor can send their work for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The e-mail contains the items that the task lists under What to submit. It also includes the learning log exported from the interactive lab (tab: Reflect and submit).
 
 ## Research and report assignment (optional)
 
-**Scheduling beyond the critical path.** Review scheduling approaches that extend the critical path method, such as resource-constrained scheduling and buffer management, and assess their suitability for research projects [1, 2, 3].
+**Scheduling beyond the critical path.** Which scheduling approaches suit research projects better than the critical path method alone?
 
-This research assignment is optional and supports self-learning. When the related weeks are followed within the course during an active semester, the report can be sent to utkukose@sdu.edu.tr or utkukose@gmail.com for evaluation. Unless the assignment states otherwise, a report has 1500 to 2500 words, follows the structure of an academic paper, cites at least six scholarly or official sources in square brackets and ends with a reference list.
+**What to do.** Review scheduling approaches that extend the critical path method, such as resource-constrained scheduling and buffer management [1, 2, 3]. Assess their suitability for research projects.
+
+**Where to start.** Lecture sections "The critical path method" and "Compressing a schedule".
+
+**Example focus.** In a research project, one doctoral student may be needed for two tasks at the same time. The report could ask how resource-constrained scheduling changes the critical path in such a case.
+
+This research assignment is optional and supports self-learning. In an active semester, students who follow these weeks with the instructor can send the report for evaluation to utkukose@sdu.edu.tr or utkukose@gmail.com. The report has 1500 to 2500 words and follows the structure of an academic paper. It cites at least six scholarly or official sources in square brackets and ends with a reference list. The [report template](https://github.com/utkukose/rd-project-management-NB-lecture/blob/main/exams/REPORT_TEMPLATE.md) shows a suitable structure.
 
 ## References
 
@@ -164,4 +176,4 @@ This research assignment is optional and supports self-learning. When the relate
 
 ---
 
-<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. Last update: September 2026.</sub>
+<sub>R&D and Project Management in Computer Science. Prof. Dr. Utku Kose, Süleyman Demirel University. ORCID [0000-0002-9652-6415](https://orcid.org/0000-0002-9652-6415). Content licensed under CC BY 4.0. This course is updated in line with current developments in the field. First version: September 2026. Last update: October 2026.</sub>
