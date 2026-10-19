@@ -1,6 +1,6 @@
 <div align="center">
 
-# R&D and Project Management in Computer Science
+# R&D and Project Management in Computer Science 
 
 **Graduate course 11117BLG002, Süleyman Demirel University**
 
